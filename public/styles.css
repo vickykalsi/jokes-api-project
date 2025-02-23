@@ -1,0 +1,54 @@
+body {
+  background-color: #578FCA;
+  color: #D1F8EF;
+  text-align: center;
+}
+
+.chakra {
+  font-family: "Chakra Petch", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chewy {
+  font-family: "Chewy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.flex-container {
+  height: 50vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: auto;
+  scrollbar-color: #578FCA #A1E3F9;
+}
+
+.flex-container input,
+.flex-container button,
+.flex-container select {
+  background-color: #A1E3F9;
+  color: #3674B5;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
